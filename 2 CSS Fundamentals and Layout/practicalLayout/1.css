@@ -1,0 +1,46 @@
+.box1{
+	border: 1px solid black;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	background-color: #f4b942;
+}
+
+.box2{
+	border: 1px solid black;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #00cc0d;
+}
+
+.box3{
+	width: 20px;
+	height: 20px;
+	position: absolute;	
+	bottom: 10px;
+	left: 10px;
+	background-color: #2600ff;
+}
+
+.box4{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	background-color: #000000;
+}
+
+.box5{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: #ff0000;
+}

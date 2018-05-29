@@ -1,0 +1,33 @@
+var string1 = "My favorite color is yellow";
+var string2 = "My favorite colour is yellow";
+var myRegEx = /\bcolou?r\b/;
+console.log(string1.match(myRegEx));
+console.log(string2.match(myRegEx));
+
+var string3 = "My favorite color is yellow. I don't like the colour green";
+var myRegEx2 = /\bcolou?r\b/g;
+console.log(string3.match(myRegEx2));
+
+var string4 = "1.688 1.345 93.43 222.546 2.77";
+var myRegEx3 = /\b[0-9]\.[0-9]{2}\b/;
+console.log(string4.match(myRegEx3));
+
+var string5 = "1,2;3.4-5,6.7";
+var myRegEx4 = /\b[^0-9]+\b/;
+console.log(string5.split(myRegEx4));
+
+
+
+console.clear();
+var string7 = "color the box";
+var string8 = "box the color";
+var myRegEx6 = /^color/;
+console.log(string7.match(myRegEx6));
+console.log(string8.match(myRegEx6));
+
+var string9 = "the random increased";
+var string10 = "the randomness increased";
+var myRegEx7 = /\brandom\b/;
+console.log(string9.match(myRegEx7));
+console.log(string10.match(myRegEx7));
+

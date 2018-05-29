@@ -1,0 +1,40 @@
+#kf2{
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+@keyframes slide{
+	0%{
+		left: 0px;
+		top: 0px;
+		background-color: red;
+	}
+	25%{
+		left: 200px;
+		top: 0px;		
+		background-color: yellow;
+	}
+	50%{
+		left: 200px;
+		top: 200px;
+		background-color: blue;
+		
+	}
+	75%{
+		left: 0px;
+		top: 200px;
+		background-color: purple;
+	}
+	100%{
+		left: 0px;
+		top: 0px;		
+	}
+}
+
+#kf2:active{
+	animation: slide 3s linear;
+}

@@ -1,0 +1,13 @@
+.box1{
+	background-color: #f4b942;
+	width: 100%;	
+}
+
+figure{
+	position: static;
+	left: 40%;
+}
+
+.image{
+	width: 30%;
+}
